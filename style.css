@@ -296,6 +296,7 @@ li {
 		-webkit-order: 2;
 		order: 2;
 		padding: 0 0.5em 0 1.5em;
+		flex: 0 1 20vw !important;
 	}
 }
 @media (max-width: 511px) {

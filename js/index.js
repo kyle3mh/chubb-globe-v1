@@ -125,14 +125,14 @@ window.addEventListener("earthjsload", function () {
   //   poly.dispatchEvent(new Event('click'));
   // }
 
-  var countryRisk2018 = [];
-  for (const property in countries) {
-    countryRisk2018 += `${property} ${countries[property].elements.year.y2018.overall}` ;
-    //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
-    //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-    //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-  }
-  console.log(countryRisk2018);
+  // var countryRisk2018 = [];
+  // for (const property in countries) {
+  //   countryRisk2018 += `${property} ${countries[property].elements.year.y2018.overall}` ;
+  //   //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
+  //   //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //   //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  // }
+  // console.log(countryRisk2018);
   // var test = 0;
 
   //  const selectElement = document.querySelector('.ice-cream');
@@ -242,111 +242,111 @@ window.addEventListener("earthjsload", function () {
   //   //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
   //   //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
   // }
-  console.log(countryColours);
-  Object.keys(countries).forEach(element => console.log('#' + element + '{ fill: blue; } '));
+  //console.log(countryColours);
+  //Object.keys(countries).forEach(element => console.log('#' + element + '{ fill: blue; } '));
 
-  var year = 0;
+  //var year = 0;
 
    
   
 
-  if (year === 2020) {
-      var countryColours = "";
-      for (const property in countries) {
-        overallRisk = countries[property].elements.year.y2020.overall;
-        if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
-          var countryRiskColour = lowRisk;
-        }
-        else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
-          var countryRiskColour = moderateRisk;
-        }
-        else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
-          var countryRiskColour = elevatedRisk;
-        }
-        else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
-          var countryRiskColour = highRisk;
-        }
-        else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
-          var countryRiskColour = veryHighRisk;
-        }
-        else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
-          var countryRiskColour = severeRisk;
-        }
-        else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
-          var countryRiskColour = extremeRisk;
-        }
-        //const risk = `${countries[property].elements.year.y2018.overall}`;
-        countryColours += '#' + `${property} { fill: ${countryRiskColour}; } `;
-        //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
-        //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-        //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-      }
-  }
+  // if (year === 2020) {
+  //     var countryColours = "";
+  //     for (const property in countries) {
+  //       overallRisk = countries[property].elements.year.y2020.overall;
+  //       if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
+  //         var countryRiskColour = lowRisk;
+  //       }
+  //       else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
+  //         var countryRiskColour = moderateRisk;
+  //       }
+  //       else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
+  //         var countryRiskColour = elevatedRisk;
+  //       }
+  //       else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
+  //         var countryRiskColour = highRisk;
+  //       }
+  //       else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
+  //         var countryRiskColour = veryHighRisk;
+  //       }
+  //       else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
+  //         var countryRiskColour = severeRisk;
+  //       }
+  //       else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
+  //         var countryRiskColour = extremeRisk;
+  //       }
+  //       //const risk = `${countries[property].elements.year.y2018.overall}`;
+  //       countryColours += '#' + `${property} { fill: ${countryRiskColour}; } `;
+  //       //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
+  //       //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //       //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //     }
+  // }
 
-  else if (year === 2019){
-    var countryColours = "";
-    for (const property in countries) {
-      overallRisk = countries[property].elements.year.y2019.overall;
-      if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
-        var countryRiskColour = lowRisk;
-      }
-      else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
-        var countryRiskColour = moderateRisk;
-      }
-      else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
-        var countryRiskColour = elevatedRisk;
-      }
-      else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
-        var countryRiskColour = highRisk;
-      }
-      else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
-        var countryRiskColour = veryHighRisk;
-      }
-      else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
-        var countryRiskColour = severeRisk;
-      }
-      else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
-        var countryRiskColour = extremeRisk;
-      }
-      //const risk = `${countries[property].elements.year.y2018.overall}`;
-      countryColours += '#' + `${property} { fill: ${countryRiskColour}; } `;
-      //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
-      //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-      //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-    }
-  }
-  else if (year === 2018){
-    var countryColours = "";
-    for (const property in countries) {
-      overallRisk = countries[property].elements.year.y2018.overall;
-      if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
-        var countryRiskColour = lowRisk;
-      }
-      else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
-        var countryRiskColour = moderateRisk;
-      }
-      else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
-        var countryRiskColour = elevatedRisk;
-      }
-      else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
-        var countryRiskColour = highRisk;
-      }
-      else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
-        var countryRiskColour = veryHighRisk;
-      }
-      else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
-        var countryRiskColour = severeRisk;
-      }
-      else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
-        var countryRiskColour = extremeRisk;
-      }
-      //const risk = `${countries[property].elements.year.y2018.overall}`;
-      countryColours += '#' + `${property} { fill: ${countryRiskColour}; } `;
-      //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
-      //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-      //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
-    }
-  }
+  // else if (year === 2019){
+  //   var countryColours = "";
+  //   for (const property in countries) {
+  //     overallRisk = countries[property].elements.year.y2019.overall;
+  //     if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
+  //       var countryRiskColour = lowRisk;
+  //     }
+  //     else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
+  //       var countryRiskColour = moderateRisk;
+  //     }
+  //     else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
+  //       var countryRiskColour = elevatedRisk;
+  //     }
+  //     else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
+  //       var countryRiskColour = highRisk;
+  //     }
+  //     else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
+  //       var countryRiskColour = veryHighRisk;
+  //     }
+  //     else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
+  //       var countryRiskColour = severeRisk;
+  //     }
+  //     else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
+  //       var countryRiskColour = extremeRisk;
+  //     }
+  //     //const risk = `${countries[property].elements.year.y2018.overall}`;
+  //     countryColours += '#' + `${property} { fill: ${countryRiskColour}; } `;
+  //     //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
+  //     //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //     //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //   }
+  // }
+  // else if (year === 2018){
+  //   var countryColours = "";
+  //   for (const property in countries) {
+  //     overallRisk = countries[property].elements.year.y2018.overall;
+  //     if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
+  //       var countryRiskColour = lowRisk;
+  //     }
+  //     else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
+  //       var countryRiskColour = moderateRisk;
+  //     }
+  //     else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
+  //       var countryRiskColour = elevatedRisk;
+  //     }
+  //     else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
+  //       var countryRiskColour = highRisk;
+  //     }
+  //     else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
+  //       var countryRiskColour = veryHighRisk;
+  //     }
+  //     else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
+  //       var countryRiskColour = severeRisk;
+  //     }
+  //     else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
+  //       var countryRiskColour = extremeRisk;
+  //     }
+  //     //const risk = `${countries[property].elements.year.y2018.overall}`;
+  //     countryColours += '#' + `${property} { fill: ${countryRiskColour}; } `;
+  //     //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
+  //     //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //     //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+  //   }
+  // }
 
   var countryColours2018 = "";
     for (const property in countries) {
@@ -371,6 +371,9 @@ window.addEventListener("earthjsload", function () {
       }
       else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
         var countryRiskColour = extremeRisk;
+      }
+      else {
+        var countryRiskColour = "#333333";
       }
       //const risk = `${countries[property].elements.year.y2018.overall}`;
       countryColours2018 += '#' + `${property} { fill: ${countryRiskColour}; } `;
@@ -404,6 +407,9 @@ window.addEventListener("earthjsload", function () {
       else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
         var countryRiskColour = extremeRisk;
       }
+      else {
+        var countryRiskColour = "#333333";
+      }
       //const risk = `${countries[property].elements.year.y2018.overall}`;
       countryColours2019 += '#' + `${property} { fill: ${countryRiskColour}; } `;
       //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
@@ -435,8 +441,45 @@ window.addEventListener("earthjsload", function () {
       else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
         var countryRiskColour = extremeRisk;
       }
+      else {
+        var countryRiskColour = "#333333";
+      }
       //const risk = `${countries[property].elements.year.y2018.overall}`;
       countryColours2020 += '#' + `${property} { fill: ${countryRiskColour}; } `;
+      //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
+      //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+      //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
+    }
+
+    var countryColours2021 = "";
+    for (const property in countries) {
+      overallRisk = countries[property].elements.year.y2021.overall;
+      if (overallRisk >= 0.1 && overallRisk <= 0.7  ) {
+        var countryRiskColour = lowRisk;
+      }
+      else if (overallRisk >= 0.8 && overallRisk <= 1.5  ) {
+        var countryRiskColour = moderateRisk;
+      }
+      else if (overallRisk >= 1.6 && overallRisk <= 2.3 ) {
+        var countryRiskColour = elevatedRisk;
+      }
+      else if (overallRisk >= 2.4 && overallRisk <= 3.1  ) {
+        var countryRiskColour = highRisk;
+      }
+      else if (overallRisk >= 3.2 && overallRisk <= 4.3  ) {
+        var countryRiskColour = veryHighRisk;
+      }
+      else if (overallRisk >= 4.4 && overallRisk <= 6.4  ) {
+        var countryRiskColour = severeRisk;
+      }
+      else if (overallRisk >= 6.5 && overallRisk <= 10  ) {
+        var countryRiskColour = extremeRisk;
+      }
+      else {
+        var countryRiskColour = "#333333";
+      }
+      //const risk = `${countries[property].elements.year.y2018.overall}`;
+      countryColours2021 += '#' + `${property} { fill: ${countryRiskColour}; } `;
       //console.log('#' + `${property} { fill: ${countries[property].elements.colour}; } `);
       //countryColours = '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
       //countryColours += '#' + `${property} { fill: ${countries[property].elements.colour}; } `;
@@ -453,7 +496,7 @@ window.addEventListener("earthjsload", function () {
     mapLandColor: '#383838',
     mapBorderColor: '#FFFFFF',
     mapBorderWidth: 0.25,
-    mapStyles: countryColours2020,
+    mapStyles: countryColours2021,
     //mapStyles : '#' + Object.keys(countries) + ' { fill: ' + countries.elements.colour + '; }',
     mapHitTest: true,
     
@@ -463,41 +506,21 @@ window.addEventListener("earthjsload", function () {
 
   });
 
-  const selectElement = document.querySelector('.ice-cream');
-
-  selectElement.addEventListener('change', (event) => {
-      //const result = document.querySelector('.result');
-      console.log(year);
-      year = event.target.value;
-      console.log(year);
-      if (year === 2020) {
-        myearth.mapStyles = countryColours2020;
-        //myearth.redrawMap();
-      }
-      else if (year === 2019) {
-        myearth.mapStyles = countryColours2019;
-        //myearth.redrawMap();
-      }
-      else  {
-        myearth.mapStyles = countryColours2018;
-        //myearth.redrawMap();
-      }
-      myearth.redrawMap();
-      //myearth.mapStyles = `${event.target.value}`; 
-      
-    });
+  
 
     // for (const property in locations) {
     //   overallRisk = countries[property].elements.year.y2020.overall;
    
     // }
 
+    var countryCode;
+
     const selectCountry = document.getElementById('country-select');
 
     selectCountry.addEventListener('change', (event) => {
         //const result = document.querySelector('.result');
         console.log(event.target.value);
-        var countryCode = event.target.value;
+        countryCode = event.target.value;
         console.log(Object.keys(locations));
         
         var latLong = locations[event.target.value];   // value2
@@ -505,16 +528,90 @@ window.addEventListener("earthjsload", function () {
         myearth.goTo( { lat: latLong[0], lng: latLong[1] }, { relativeDuration: 100, approachAngle: 0 } ); 
         //myearth.mapStyles = `${event.target.value}`; 
         document.getElementById('country-name').innerHTML = countries[event.target.value].elements.name;
-        document.getElementById('overall').innerHTML = countries[event.target.value].elements.year.y2018.overall;
-        document.getElementById('terrorism').innerHTML = countries[event.target.value].elements.year.y2018.terrorism;
-        document.getElementById('civil-unrest').innerHTML = countries[event.target.value].elements.year.y2018.civil_unrest;
-        document.getElementById('war').innerHTML = countries[event.target.value].elements.year.y2018.war;
-        document.getElementById('political').innerHTML = countries[event.target.value].elements.year.y2018.political;
-        document.getElementById('srcc').innerHTML = countries[event.target.value].elements.year.y2018.srcc;
-        document.getElementById('id-terrorism').innerHTML = countries[event.target.value].elements.year.y2018.id_terrorism;
+        document.getElementById("year").selectedIndex = 0; //set year filter to 2021
+        if (countries[event.target.value].elements.year.y2018.overall != undefined) {
+          document.getElementById("risk").style.display = "block";
+          document.getElementById('overall').innerHTML = countries[event.target.value].elements.year.y2021.overall;
+          document.getElementById('terrorism').innerHTML = countries[event.target.value].elements.year.y2021.terrorism;
+          document.getElementById('civil-unrest').innerHTML = countries[event.target.value].elements.year.y2021.civil_unrest;
+          document.getElementById('war').innerHTML = countries[event.target.value].elements.year.y2021.war;
+          document.getElementById('political').innerHTML = countries[event.target.value].elements.year.y2021.political;
+        }
+        
+        else if (countries[event.target.value].elements.year.y2018.overall === undefined) {
+          
+          document.getElementById("risk").style.display = "none";
+        }
+        document.getElementById('srcc').innerHTML = countries[event.target.value].elements.year.y2021.srcc;
+        document.getElementById('id-terrorism').innerHTML = countries[event.target.value].elements.year.y2021.id_terrorism;
+
+       
       });
 
-  
+      // the year select
+  const selectElement = document.querySelector('.year-filter');
+
+    selectElement.addEventListener('change', (event) => {
+      console.log(countryCode);
+      var year = event.target.value;
+      console.log(year);
+
+      switch (year) {
+
+        case "2018":
+          myearth.mapStyles = countryColours2018;
+          myearth.redrawMap();
+          document.getElementById('overall').innerHTML = countries[countryCode].elements.year.y2018.overall;
+          document.getElementById('terrorism').innerHTML = countries[countryCode].elements.year.y2018.terrorism;
+          document.getElementById('civil-unrest').innerHTML = countries[countryCode].elements.year.y2018.civil_unrest;
+          document.getElementById('war').innerHTML = countries[countryCode].elements.year.y2018.war;
+          document.getElementById('political').innerHTML = countries[countryCode].elements.year.y2018.political;
+          document.getElementById('srcc').innerHTML = countries[countryCode].elements.year.y2018.srcc;
+          document.getElementById('id-terrorism').innerHTML = countries[countryCode].elements.year.y2018.id_terrorism;
+         
+          break;
+
+        case "2019":
+          myearth.mapStyles = countryColours2019;
+          myearth.redrawMap();
+          document.getElementById('overall').innerHTML = countries[countryCode].elements.year.y2019.overall;
+          document.getElementById('terrorism').innerHTML = countries[countryCode].elements.year.y2019.terrorism;
+          document.getElementById('civil-unrest').innerHTML = countries[countryCode].elements.year.y2019.civil_unrest;
+          document.getElementById('war').innerHTML = countries[countryCode].elements.year.y2019.war;
+          document.getElementById('political').innerHTML = countries[countryCode].elements.year.y2019.political;
+          document.getElementById('srcc').innerHTML = countries[countryCode].elements.year.y2019.srcc;
+          document.getElementById('id-terrorism').innerHTML = countries[countryCode].elements.year.y2019.id_terrorism;
+          break;
+
+        case "2020":
+          myearth.mapStyles = countryColours2020;
+          myearth.redrawMap();
+          document.getElementById('overall').innerHTML = countries[countryCode].elements.year.y2020.overall;
+          document.getElementById('terrorism').innerHTML = countries[countryCode].elements.year.y2020.terrorism;
+          document.getElementById('civil-unrest').innerHTML = countries[countryCode].elements.year.y2020.civil_unrest;
+          document.getElementById('war').innerHTML = countries[countryCode].elements.year.y2020.war;
+          document.getElementById('political').innerHTML = countries[countryCode].elements.year.y2020.political;
+          document.getElementById('srcc').innerHTML = countries[countryCode].elements.year.y2020.srcc;
+          document.getElementById('id-terrorism').innerHTML = countries[countryCode].elements.year.y2020.id_terrorism;
+          break;
+        
+        case "2021":
+          myearth.mapStyles = countryColours2021;
+          myearth.redrawMap();
+          document.getElementById('overall').innerHTML = countries[countryCode].elements.year.y2021.overall;
+          document.getElementById('terrorism').innerHTML = countries[countryCode].elements.year.y2021.terrorism;
+          document.getElementById('civil-unrest').innerHTML = countries[countryCode].elements.year.y2021.civil_unrest;
+          document.getElementById('war').innerHTML = countries[countryCode].elements.year.y2021.war;
+          document.getElementById('political').innerHTML = countries[countryCode].elements.year.y2021.political;
+          document.getElementById('srcc').innerHTML = countries[countryCode].elements.year.y2021.srcc;
+          document.getElementById('id-terrorism').innerHTML = countries[countryCode].elements.year.y2021.id_terrorism;
+          break;
+
+        default:
+          myearth.mapStyles = countryColours2021;
+      }
+      
+    });
 
 
   var selectedCountry;
@@ -547,18 +644,27 @@ window.addEventListener("earthjsload", function () {
     // myearth.redrawMap();
       
     if (event.id) {
-      
+        countryCode = event.id;
         if ( selectedCountry != event.id ) {
           selectedCountry = event.id;
-          document.getElementById('country-name').innerHTML = countries[ event.id ];
+          if (countries[selectedCountry].elements.year.y2018.overall != undefined) {
+            document.getElementById("risk").style.display = "block";
+            document.getElementById('country-name').innerHTML = countries[ event.id ];
+            document.getElementById('country-name').innerHTML = countries[event.id].elements.name;
+            document.getElementById('overall').innerHTML = countries[event.id].elements.year.y2021.overall;
+            document.getElementById('terrorism').innerHTML = countries[event.id].elements.year.y2021.terrorism;
+            document.getElementById('civil-unrest').innerHTML = countries[event.id].elements.year.y2021.civil_unrest;
+            document.getElementById('war').innerHTML = countries[event.id].elements.year.y2021.war;
+            document.getElementById('political').innerHTML = countries[event.id].elements.year.y2021.political;
+
+          }
+          else if (countries[selectedCountry].elements.year.y2018.overall === undefined) {
+            
+            document.getElementById("risk").style.display = "none";
+          }
           document.getElementById('country-name').innerHTML = countries[event.id].elements.name;
-          document.getElementById('overall').innerHTML = countries[event.id].elements.year.y2018.overall;
-          document.getElementById('terrorism').innerHTML = countries[event.id].elements.year.y2018.terrorism;
-          document.getElementById('civil-unrest').innerHTML = countries[event.id].elements.year.y2018.civil_unrest;
-          document.getElementById('war').innerHTML = countries[event.id].elements.year.y2018.war;
-          document.getElementById('political').innerHTML = countries[event.id].elements.year.y2018.political;
-          document.getElementById('srcc').innerHTML = countries[event.id].elements.year.y2018.srcc;
-          document.getElementById('id-terrorism').innerHTML = countries[event.id].elements.year.y2018.id_terrorism;
+          document.getElementById('srcc').innerHTML = countries[event.id].elements.year.y2021.srcc;
+          document.getElementById('id-terrorism').innerHTML = countries[event.id].elements.year.y2021.id_terrorism;
         }
         //console.log(event.id);
 
@@ -628,134 +734,3 @@ function gotoBreakingNews(newsId) {
 
 }
 
-function startReport(results) {
-
-    let ReportWrapper = document.getElementById("sc-2021");
-
-    // console.log("results:");
-    // console.log(results);
-
-    const [coverLogo, coverBG, linkLeft, linkRight] = results.cover.elements;
-
-    const tocElements = results.toc.elements;
-
-    const pages = results.pages;
-
-    let tocLinks = tocElements.filter(function (e) {
-        return e.name == 'toc_link';
-    });
-
-    const getButton = tocElements.filter(function (e) {
-        return e.name == 'toc_back_link';
-    });
-
-    let tocButton = getButton[0].html;
-
-    function tocLinkTemplate(tocLink, index) {
-      index = index + 1;
-      return `
-          <li>
-            <span>${index}</span><span>${tocLink.html}</span>
-          </li>
-      `;
-    }
-
-
-    function pageTemplate(page, index) {
-      const elements = page.elements;
-      index = index + 1;
-      return `
-          <div id="sc-art-${index}" class="sc-post">
-            <div class="jumbotron jumbotron--header sc-bg-${page.color}">
-              <img src="${elements[0].url}" alt="" />
-            </div>
-            <div class="container">
-              ${elements[1].html}
-              <div class="row sc-post__wrapper">
-                <div class="sc-post__content col-md-7 col-md-offset-2">
-                ${elements.map(pageContentTemplate).join("")}
-                </div>
-                <div class="aside__toc col-md-3 visible-md-block visible-lg-block">
-                  <div class="toc__wrapper">
-                    <ul class="toc__content toc__content--timeline">
-                    ${tocLinks.map(function (link, i) {
-                      let activeClass;
-                      i = i + 1;
-                      if (index === i) {
-                        activeClass = 'active';
-                      } else {
-                        activeClass = '';
-                      }
-                      return `
-                      <li class="tl-item ${activeClass}">
-                        <div class="tl-dot">${i}</div>
-                        <div class="tl-content">
-                          ${link.html}
-                        </div>
-                      </li>
-                      `;
-                    }).join('')}
-                    </ul>
-                    <div class="toc__back ">${tocButton}</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
-    }
-
-    function pageContentTemplate(pageElements) {
-
-      if (pageElements.type == "html" && pageElements.name !== "page_title")
-      return `
-            ${pageElements.html}
-      `;
-    }
-
-    const coverOpen = `<div id="sc-cover"`;
-    const cover = `<div class="jumbotron jumbotron--cover" style="background-image: url('assets/files/${coverBG.url}')";>
-              <img src="./assets/files/${coverLogo.url}" alt="" />
-            </div>
-    `;
-
-    const coverLinks = `
-      <div class="row row-no-gutters sc-is-flex sc-is-flex-md">
-        <div class="col-sm-6 sc-is-flex sc-is-flex-md">${linkLeft.html}</div>
-        <div class="col-sm-6 sc-is-flex sc-is-flex-md">${linkRight.html}</div>
-      </div>
-    `;
-    const close = `</div>`;
-
-    const tocPage = `
-      <div id="sc-toc" class="sc-page">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <h2 class="h1 sc-post__title">Contents</h2>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-              <ul class="toc__content">
-                ${tocLinks.map(tocLinkTemplate).join("")}
-              </ul>
-              <div class="toc__back ">${tocButton}</div>
-          </div>
-        </div>
-      </div>
-    </div>`;
-
-
-
-    function renderReport() {
-      document.getElementById("sc-2021").innerHTML = `
-        ${coverLinks}
-      `;
-      setTimeout( function() { 
-        console.log("Yay!! You win!");
-      }, 1000);
-    }
-
-    renderReport();
-
-}

@@ -6,35 +6,37 @@ var countries = {
         "elements": {
             "year": {
                 "y2018": {
+                    "overall": 3,
                     "terrorism": 5,
                     "civil_unrest": 5,
                     "war": 3,
-                    "political": 2,
-                    "id_terrorism": 10,
-                    "srcc": 5,
-                    "overall": 3
+                    "political": 2
                 },
                 "y2019": {
-                    "terrorism ": 8,
-                    "civil_unrest ": 5,
-                    "war ": 3,
-                    "political": 2,
-                    "id_terrorism": 10,
-                    "srcc": 5,
-                    "overall": 7
+                    "overall": 3,
+                    "terrorism": 5,
+                    "civil_unrest": 5,
+                    "war": 3,
+                    "political": 2
                 },
                 "y2020": {
-                    "terrorism": 3,
-                    "civil_unrest ": 5,
+                    "overall": 3,
+                    "terrorism": 5,
+                    "civil_unrest": 5,
                     "war": 3,
-                    "political": 2,
-                    "id_terrorism": 10,
-                    "srcc": 5,
-                    "overall": 5
+                    "political": 2
+                },
+                "y2021": {
+                    "overall": 3,
+                    "terrorism": 5,
+                    "civil_unrest": 5,
+                    "war": 3,
+                    "political": 2
                 }
             },
             "name": "Afganistan",
-            "colour": "#146"
+            "srcc": 5,
+            "id_terrorism": 10
         }
     },
     "CN": {
@@ -47,7 +49,7 @@ var countries = {
                     "political": 2,
                     "id_terrorism": 10,
                     "srcc": 5,
-                    "overall": 0.3
+                    "overall": 0.1
                 },
                 "y2019": {
                     "terrorism": 8,
@@ -56,7 +58,7 @@ var countries = {
                     "political": 2,
                     "id_terrorism": 10,
                     "srcc": 5,
-                    "overall": 5
+                    "overall": 3.8
                 },
                 "y2020": {
                     "terrorism": 3,
