@@ -646,6 +646,7 @@ window.addEventListener("earthjsload", function () {
     if (event.id) {
         countryCode = event.id;
         if ( selectedCountry != event.id ) {
+          document.getElementById("year").selectedIndex = 0; //set year filter to 2021
           selectedCountry = event.id;
           if (countries[selectedCountry].elements.year.y2018.overall != undefined) {
             document.getElementById("risk").style.display = "block";

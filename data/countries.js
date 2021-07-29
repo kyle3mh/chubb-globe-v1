@@ -2021,98 +2021,2741 @@ var countries = {
             }
         }
     },
-    // "IE": "Ireland",
-    // "IL": "Israel",
-    // "IT": "Italy",
-    // "JM": "Jamaica",
-    // "JP": "Japan",
-    // "JO": "Jordan",
-    // "KZ": "Kazakhstan",
-    // "KE": "Kenya",
-    // "KP": "North Korea",
-    // "KR": "South Korea",
-    // "KW": "Kuwait",
-    // "KG": "Kyrgyzstan",
-    // "LA": "Laos",
-    // "LV": "Latvia",
-    // "LB": "Lebanon",
-    // "LS": "Lesotho",
-    // "LR": "Liberia",
-    // "LY": "Libya",
-    // "LT": "Lithuania",
-    // "LU": "Luxembourg",
-    // "MK": "Macedonia",
-    // "MG": "Madagascar",
-    // "MW": "Malawi",
-    // "MY": "Malaysia",
-    // "ML": "Mali",
-    // "MR": "Mauritania",
-    // "MX": "Mexico",
-    // "MD": "Moldova",
-    // "MN": "Mongolia",
-    // "ME": "Montenegro",
-    // "MA": "Morocco",
-    // "MZ": "Mozambique",
-    // "MM": "Myanmar",
-    // "NA": "Namibia",
-    // "NP": "Nepal",
-    // "NL": "Netherlands",
-    // "NZ": "New Zealand",
-    // "NI": "Nicaragua",
-    // "NE": "Niger",
-    // "NG": "Nigeria",
-    // "NO": "Norway",
-    // "OM": "Oman",
-    // "PK": "Pakistan",
-    // "PA": "Panama",
-    // "PG": "Papua New Guinea",
-    // "PY": "Paraguay",
-    // "PE": "Peru",
-    // "PH": "Philippines",
-    // "PL": "Poland",
-    // "PT": "Portugal",
-    // "PR": "Puerto Rico",
-    // "QA": "Qatar",
-    // "RO": "Romania",
-    // "RU": "Russia",
-    // "RW": "Rwanda",
-    // "SA": "Saudi Arabia",
-    // "SN": "Senegal",
-    // "RS": "Serbia",
-    // "SL": "Sierra Leone",
-    // "SK": "Slovakia",
-    // "SI": "Slovenia",
-    // "SO": "Somalia",
-    // "ZA": "South Africa",
-    // "ES": "Spain",
-    // "LK": "Sri Lanka",
-    // "SD": "Sudan",
-    // "SS": "South Sudan",
-    // "SR": "Suriname",
-    // "SZ": "Swaziland",
-    // "SE": "Sweden",
-    // "CH": "Switzerland",
-    // "SY": "Syria",
-    // "TW": "Taiwan",
-    // "TJ": "Tajikistan",
-    // "TZ": "Tanzania",
-    // "TH": "Thailand",
-    // "TG": "Togo",
-    // "TT": "Trinidad And Tobago",
-    // "TN": "Tunisia",
-    // "TR": "Turkey",
-    // "TM": "Turkmenistan",
-    // "UG": "Uganda",
-    // "UA": "Ukraine",
-    // "AE": "United Arab Emirates",
-    // "GB": "United Kingdom",
-    // "US": "United States",
-    // "UY": "Uruguay",
-    // "UZ": "Uzbekistan",
-    // "VE": "Venezuela",
-    // "VN": "Viet Nam",
-    // "EH": "Western Sahara",
-    // "YE": "Yemen",
-    // "ZM": "Zambia",
-    // "ZW": "Zimbabwe"
+    "IE": {
+        "elements": {
+            "name": "Ireland",
+            "year": {
+                "y2018": {
+                    "srcc": 11,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 10,
+                    "id_terrorism": 2
+                },
+                "y2020": {
+                    "srcc": 26,
+                    "id_terrorism": 3
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "IL": {
+        "elements": {
+            "name": "Israel",
+            "year": {
+                "y2018": {
+                    "srcc": 271,
+                    "id_terrorism": 222
+                },
+                "y2019": {
+                    "srcc": 120,
+                    "id_terrorism": 125
+                },
+                "y2020": {
+                    "srcc": 848,
+                    "id_terrorism": 129
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "IT": {
+        "elements": {
+            "name": "Italy",
+            "year": {
+                "y2018": {
+                    "overall": 2.10,
+                    "terrorism": 2.30,
+                    "civil_unrest": 2.70,
+                    "war": 1.10,
+                    "political": 2.10,
+                    "srcc": 42,
+                    "id_terrorism": 18
+                },
+                "y2019": {
+                    "overall": 1.90,
+                    "terrorism": 1.60,
+                    "civil_unrest": 2.60,
+                    "war": 1.10,
+                    "political": 2.10,
+                    "srcc": 35,
+                    "id_terrorism": 2
+                },
+                "y2020": {
+                    "overall": 1.90,
+                    "terrorism": 1.70,
+                    "civil_unrest": 2.60,
+                    "war": 1.10,
+                    "political": 2.20,
+                    "srcc": 39,
+                    "id_terrorism": 6
+                },
+                "y2021": {
+                    "overall": 1.90,
+                    "terrorism": 1.70,
+                    "civil_unrest": 2.70,
+                    "war": 1.10,
+                    "political": 2.10,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "JP": {
+        "elements": {
+            "name": "Japan",
+            "year": {
+                "y2018": {
+                    "overall": 1.00,
+                    "terrorism": 0.50,
+                    "civil_unrest": 1.40,
+                    "war": 0.60,
+                    "political": 1.30,
+                    "srcc": 14,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "overall": 0.80,
+                    "terrorism": 0.30,
+                    "civil_unrest": 1.10,
+                    "war": 0.60,
+                    "political": 1.30,
+                    "srcc": 11,
+                    "id_terrorism": 5
+                },
+                "y2020": {
+                    "overall": 0.90,
+                    "terrorism": 0.40,
+                    "civil_unrest": 1.10,
+                    "war": 0.80,
+                    "political": 1.30,
+                    "srcc": 9,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "overall": 1.00,
+                    "terrorism": 0.40,
+                    "civil_unrest": 1.20,
+                    "war": 1.00,
+                    "political": 1.20,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "JO": {
+        "elements": {
+            "name": "Jordan",
+            "year": {
+                "y2018": {
+                    "srcc": 233,
+                    "id_terrorism": 4
+                },
+                "y2019": {
+                    "srcc": 317,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 120,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "KZ": {
+        "elements": {
+            "name": "Kazakhstan",
+            "year": {
+                "y2018": {
+                    "srcc": 3,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 43,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 24,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "KE": {
+        "elements": {
+            "name": "Kenya",
+            "year": {
+                "y2018": {
+                    "overall": 2.60,
+                    "terrorism": 3.50,
+                    "civil_unrest": 2.60,
+                    "war": 1.80,
+                    "political": 2.60,
+                    "srcc": 25,
+                    "id_terrorism": 22
+                },
+                "y2019": {
+                    "overall": 2.70,
+                    "terrorism": 3.00,
+                    "civil_unrest": 3.00,
+                    "war": 2.00,
+                    "political": 2.70,
+                    "srcc": 37,
+                    "id_terrorism": 22
+                },
+                "y2020": {
+                    "overall": 2.80,
+                    "terrorism": 3.10,
+                    "civil_unrest": 3.10,
+                    "war": 2.00,
+                    "political": 2.90,
+                    "srcc": 84,
+                    "id_terrorism": 29
+                },
+                "y2021": {
+                    "overall": 2.70,
+                    "terrorism": 3.00,
+                    "civil_unrest": 3.10,
+                    "war": 2.00,
+                    "political": 2.80,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "XK": {
+        "elements": {
+            "name": "Kosovo",
+            "year": {
+                "y2018": {
+                    "srcc": 22,
+                    "id_terrorism": 10
+                },
+                "y2019": {
+                    "srcc": 11,
+                    "id_terrorism": 3
+                },
+                "y2020": {
+                    "srcc": 12,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "KP": {
+        "elements": {
+            "name": "North Korea",
+            "year": {
+                "y2018": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 3,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "KR": {
+        "elements": {
+            "name": "South Korea",
+            "year": {
+                "y2018": {
+                    "overall": 1.50,
+                    "terrorism": 0.90,
+                    "civil_unrest": 2.20,
+                    "war": 1.30,
+                    "political": 1.50,
+                    "srcc": 18,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "overall": 1.40,
+                    "terrorism": 0.60,
+                    "civil_unrest": 2.40,
+                    "war": 1.20,
+                    "political": 1.50,
+                    "srcc": 24,
+                    "id_terrorism": 2
+                },
+                "y2020": {
+                    "overall": 1.40,
+                    "terrorism": 0.50,
+                    "civil_unrest": 2.30,
+                    "war": 1.40,
+                    "political": 1.50,
+                    "srcc": 25,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 1.40,
+                    "terrorism": 0.50,
+                    "civil_unrest": 2.20,
+                    "war": 1.40,
+                    "political": 1.40,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "KW": {
+        "elements": {
+            "name": "Kuwait",
+            "year": {
+                "y2018": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 5,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "KG": {
+        "elements": {
+            "name": "Kyrgyzstan",
+            "year": {
+                "y2018": {
+                    "srcc": 47,
+                    "id_terrorism": 3
+                },
+                "y2019": {
+                    "srcc": 46,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 45,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LV": {
+        "elements": {
+            "name": "Latvia",
+            "year": {
+                "y2018": {
+                    "srcc": 3,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 5,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 5,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LB": {
+        "elements": {
+            "name": "Lebanon",
+            "year": {
+                "y2018": {
+                    "overall": 3.40,
+                    "terrorism": 3.80,
+                    "civil_unrest": 2.80,
+                    "war": 3.30,
+                    "political": 3.80,
+                    "srcc": 297,
+                    "id_terrorism": 6
+                },
+                "y2019": {
+                    "overall": 3.20,
+                    "terrorism": 3.00,
+                    "civil_unrest": 2.70,
+                    "war": 3.30,
+                    "political": 3.80,
+                    "srcc": 736,
+                    "id_terrorism": 3
+                },
+                "y2020": {
+                    "overall": 3.40,
+                    "terrorism": 2.50,
+                    "civil_unrest": 3.50,
+                    "war": 3.30,
+                    "political": 4.20,
+                    "srcc": 1142,
+                    "id_terrorism": 3
+                },
+                "y2021": {
+                    "overall": 3.40,
+                    "terrorism": 2.60,
+                    "civil_unrest": 3.40,
+                    "war": 3.30,
+                    "political": 4.30,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LS": {
+        "elements": {
+            "name": "Lesotho",
+            "year": {
+                "y2018": {
+                    "srcc": 3,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LR": {
+        "elements": {
+            "name": "Liberia",
+            "year": {
+                "y2018": {
+                    "srcc": 7,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 19,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 26,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LY": {
+        "elements": {
+            "name": "Libya",
+            "year": {
+                "y2018": {
+                    "srcc": 250,
+                    "id_terrorism": 337
+                },
+                "y2019": {
+                    "srcc": 149,
+                    "id_terrorism": 1855
+                },
+                "y2020": {
+                    "srcc": 139,
+                    "id_terrorism": 2603
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LI": {
+        "elements": {
+            "name": "Liechtenstein",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LU": {
+        "elements": {
+            "name": "Luxembourg",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 6,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MO": {
+        "elements": {
+            "name": "Macao SAR",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MK": {
+        "elements": {
+            "name": "Macedonia",
+            "year": {
+                "y2018": {
+                    "srcc": 27,
+                    "id_terrorism": 3
+                },
+                "y2019": {
+                    "srcc": 5,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 5,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MG": {
+        "elements": {
+            "name": "Madagascar",
+            "year": {
+                "y2018": {
+                    "srcc": 6,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 7,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MW": {
+        "elements": {
+            "name": "Malawi",
+            "year": {
+                "y2018": {
+                    "srcc": 27,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 23,
+                    "id_terrorism": 4
+                },
+                "y2020": {
+                    "srcc": 40,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MY": {
+        "elements": {
+            "name": "Malaysia",
+            "year": {
+                "y2018": {
+                    "overall": 1.30,
+                    "terrorism": 1.50,
+                    "civil_unrest": 1.60,
+                    "war": 0.70,
+                    "political": 1.50,
+                    "srcc": 61,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "overall": 1.30,
+                    "terrorism": 1.40,
+                    "civil_unrest": 1.50,
+                    "war": 0.80,
+                    "political": 1.50,
+                    "srcc": 43,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "overall": 1.20,
+                    "terrorism": 1.20,
+                    "civil_unrest": 1.40,
+                    "war": 0.80,
+                    "political": 1.50,
+                    "srcc": 13,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 1.30,
+                    "terrorism": 1.20,
+                    "civil_unrest": 1.50,
+                    "war": 1.10,
+                    "political": 1.50,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MV": {
+        "elements": {
+            "name": "Maldives",
+            "year": {
+                "y2018": {
+                    "srcc": 16,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 10,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 24,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ML": {
+        "elements": {
+            "name": "Mali",
+            "year": {
+                "y2018": {
+                    "srcc": 79,
+                    "id_terrorism": 168
+                },
+                "y2019": {
+                    "srcc": 83,
+                    "id_terrorism": 253
+                },
+                "y2020": {
+                    "srcc": 104,
+                    "id_terrorism": 269
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MT": {
+        "elements": {
+            "name": "Mauritania",
+            "year": {
+                "y2018": {
+                    "srcc": 8,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 18,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 18,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MQ": {
+        "elements": {
+            "name": "Martinique",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MR": {
+        "elements": {
+            "name": "Mauritania",
+            "year": {
+                "y2018": {
+                    "srcc": 4,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 66,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 57,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MU": {
+        "elements": {
+            "name": "Mauritius",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 4,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MX": {
+        "elements": {
+            "name": "Mexico",
+            "year": {
+                "y2018": {
+                    "overall": 2.50,
+                    "terrorism": 3.00,
+                    "civil_unrest": 3.00,
+                    "war": 1.30,
+                    "political": 2.60,
+                    "srcc": 128,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "overall": 2.60,
+                    "terrorism": 3.00,
+                    "civil_unrest": 3.00,
+                    "war": 1.30,
+                    "political": 3.00,
+                    "srcc": 454,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "overall": 2.60,
+                    "terrorism": 2.60,
+                    "civil_unrest": 3.20,
+                    "war": 1.40,
+                    "political": 3.20,
+                    "srcc": 789,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 2.50,
+                    "terrorism": 2.10,
+                    "civil_unrest": 3.30,
+                    "war": 1.40,
+                    "political": 3.20,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MD": {
+        "elements": {
+            "name": "Moldova",
+            "year": {
+                "y2018": {
+                    "srcc": 77,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 29,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 29,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ME": {
+        "elements": {
+            "name": "Montenegro",
+            "year": {
+                "y2018": {
+                    "srcc": 3,
+                    "id_terrorism": 5
+                },
+                "y2019": {
+                    "srcc": 14,
+                    "id_terrorism": 2
+                },
+                "y2020": {
+                    "srcc": 21,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MA": {
+        "elements": {
+            "name": "Morocco",
+            "year": {
+                "y2018": {
+                    "overall": 2.20,
+                    "terrorism": 2.60,
+                    "civil_unrest": 2.50,
+                    "war": 1.30,
+                    "political": 2.40,
+                    "srcc": 203,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "overall": 2.40,
+                    "terrorism": 2.70,
+                    "civil_unrest": 3.10,
+                    "war": 1.30,
+                    "political": 2.50,
+                    "srcc": 215,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "overall": 2.30,
+                    "terrorism": 2.30,
+                    "civil_unrest": 3.00,
+                    "war": 1.30,
+                    "political": 2.40,
+                    "srcc": 261,
+                    "id_terrorism": 246
+                },
+                "y2021": {
+                    "overall": 2.30,
+                    "terrorism": 2.40,
+                    "civil_unrest": 3.00,
+                    "war": 1.40,
+                    "political": 2.50,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MZ": {
+        "elements": {
+            "name": "Mozambique",
+            "year": {
+                "y2018": {
+                    "srcc": 31,
+                    "id_terrorism": 19
+                },
+                "y2019": {
+                    "srcc": 33,
+                    "id_terrorism": 78
+                },
+                "y2020": {
+                    "srcc": 18,
+                    "id_terrorism": 133
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "MM": {
+        "elements": {
+            "name": "Myanmar",
+            "year": {
+                "y2018": {
+                    "srcc": 120,
+                    "id_terrorism": 57
+                },
+                "y2019": {
+                    "srcc": 95,
+                    "id_terrorism": 146
+                },
+                "y2020": {
+                    "srcc": 43,
+                    "id_terrorism": 143
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NA": {
+        "elements": {
+            "name": "Namibia",
+            "year": {
+                "y2018": {
+                    "srcc": 10,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 6,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 10,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NP": {
+        "elements": {
+            "name": "Nepal",
+            "year": {
+                "y2018": {
+                    "srcc": 163,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 106,
+                    "id_terrorism": 8
+                },
+                "y2020": {
+                    "srcc": 106,
+                    "id_terrorism": 2
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NL": {
+        "elements": {
+            "name": "Netherlands",
+            "year": {
+                "y2018": {
+                    "overall": 1.40,
+                    "terrorism": 2.30,
+                    "civil_unrest": 1.50,
+                    "war": 0.60,
+                    "political": 1.10,
+                    "srcc": 6,
+                    "id_terrorism": 5
+                },
+                "y2019": {
+                    "overall": 1.20,
+                    "terrorism": 1.70,
+                    "civil_unrest": 1.50,
+                    "war": 0.60,
+                    "political": 1.10,
+                    "srcc": 25,
+                    "id_terrorism": 5
+                },
+                "y2020": {
+                    "overall": 1.40,
+                    "terrorism": 1.60,
+                    "civil_unrest": 1.90,
+                    "war": 0.80,
+                    "political": 1.40,
+                    "srcc": 40,
+                    "id_terrorism": 10
+                },
+                "y2021": {
+                    "overall": 1.40,
+                    "terrorism": 1.70,
+                    "civil_unrest": 1.90,
+                    "war": 0.70,
+                    "political": 1.20,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NZ": {
+        "elements": {
+            "name": "New Zealand",
+            "year": {
+                "y2018": {
+                    "overall": 0.70,
+                    "terrorism": 0.70,
+                    "civil_unrest": 1.20,
+                    "war": 0.20,
+                    "political": 0.80,
+                    "srcc": 77,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "overall": 0.70,
+                    "terrorism": 0.50,
+                    "civil_unrest": 1.30,
+                    "war": 0.20,
+                    "political": 0.70,
+                    "srcc": 56,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "overall": 0.80,
+                    "terrorism": 0.60,
+                    "civil_unrest": 1.50,
+                    "war": 0.20,
+                    "political": 0.80,
+                    "srcc": 46,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 0.70,
+                    "terrorism": 0.50,
+                    "civil_unrest": 1.50,
+                    "war": 0.20,
+                    "political": 0.70,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NI": {
+        "elements": {
+            "name": "Nicaragua",
+            "year": {
+                "y2018": {
+                    "srcc": 126,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 38,
+                    "id_terrorism": 3
+                },
+                "y2020": {
+                    "srcc": 14,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NE": {
+        "elements": {
+            "name": "Niger",
+            "year": {
+                "y2018": {
+                    "srcc": 24,
+                    "id_terrorism": 20
+                },
+                "y2019": {
+                    "srcc": 12,
+                    "id_terrorism": 45
+                },
+                "y2020": {
+                    "srcc": 8,
+                    "id_terrorism": 31
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NG": {
+        "elements": {
+            "name": "Nigeria",
+            "year": {
+                "y2018": {
+                    "overall": 3.80,
+                    "terrorism": 5.40,
+                    "civil_unrest": 3.80,
+                    "war": 2.90,
+                    "political": 3.20,
+                    "srcc": 344,
+                    "id_terrorism": 222
+                },
+                "y2019": {
+                    "overall": 3.70,
+                    "terrorism": 5.10,
+                    "civil_unrest": 3.50,
+                    "war": 2.80,
+                    "political": 3.20,
+                    "srcc": 420,
+                    "id_terrorism": 160
+                },
+                "y2020": {
+                    "overall": 3.90,
+                    "terrorism": 5.50,
+                    "civil_unrest": 3.70,
+                    "war": 3.00,
+                    "political": 3.20,
+                    "srcc": 586,
+                    "id_terrorism": 301
+                },
+                "y2021": {
+                    "overall": 4.00,
+                    "terrorism": 5.60,
+                    "civil_unrest": 3.90,
+                    "war": 3.10,
+                    "political": 3.20,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "NO": {
+        "elements": {
+            "name": "Norway",
+            "year": {
+                "y2018": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 11,
+                    "id_terrorism": 4
+                },
+                "y2020": {
+                    "srcc": 7,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PK": {
+        "elements": {
+            "name": "Pakistan",
+            "year": {
+                "y2018": {
+                    "overall": 3.30,
+                    "terrorism": 4.20,
+                    "civil_unrest": 2.90,
+                    "war": 3.20,
+                    "political": 2.80,
+                    "srcc": 70,
+                    "id_terrorism": 72
+                },
+                "y2019": {
+                    "overall": 3.00,
+                    "terrorism": 3.40,
+                    "civil_unrest": 2.70,
+                    "war": 3.10,
+                    "political": 2.60,
+                    "srcc": 260,
+                    "id_terrorism": 79
+                },
+                "y2020": {
+                    "overall": 2.80,
+                    "terrorism": 2.60,
+                    "civil_unrest": 2.90,
+                    "war": 3.00,
+                    "political": 2.70,
+                    "srcc": 313,
+                    "id_terrorism": 103
+                },
+                "y2021": {
+                    "overall": 2.80,
+                    "terrorism": 2.80,
+                    "civil_unrest": 2.90,
+                    "war": 2.90,
+                    "political": 2.70,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PS": {
+        "elements": {
+            "name": "Palestinian Territory",
+            "year": {
+                "y2018": {
+                    "srcc": 21,
+                    "id_terrorism": 6
+                },
+                "y2019": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 115,
+                    "id_terrorism": 18
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PA": {
+        "elements": {
+            "name": "Panama",
+            "year": {
+                "y2018": {
+                    "srcc": 49,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 36,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "srcc": 101,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PG": {
+        "elements": {
+            "name": "Papua New Guinea",
+            "year": {
+                "y2018": {
+                    "srcc": 30,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 29,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 44,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PY": {
+        "elements": {
+            "name": "Paraguay",
+            "year": {
+                "y2018": {
+                    "srcc": 4,
+                    "id_terrorism": 3
+                },
+                "y2019": {
+                    "srcc": 13,
+                    "id_terrorism": 4
+                },
+                "y2020": {
+                    "srcc": 33,
+                    "id_terrorism": 2
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PE": {
+        "elements": {
+            "name": "Peru",
+            "year": {
+                "y2018": {
+                    "srcc": 85,
+                    "id_terrorism": 7
+                },
+                "y2019": {
+                    "srcc": 82,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "srcc": 68,
+                    "id_terrorism": 8
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PH": {
+        "elements": {
+            "name": "Philippines",
+            "year": {
+                "y2018": {
+                    "overall": 2.70,
+                    "terrorism": 3.50,
+                    "civil_unrest": 2.40,
+                    "war": 2.40,
+                    "political": 2.40,
+                    "srcc": 66,
+                    "id_terrorism": 135
+                },
+                "y2019": {
+                    "overall": 2.50,
+                    "terrorism": 3.10,
+                    "civil_unrest": 2.30,
+                    "war": 2.30,
+                    "political": 2.30,
+                    "srcc": 32,
+                    "id_terrorism": 116
+                },
+                "y2020": {
+                    "overall": 2.50,
+                    "terrorism": 3.00,
+                    "civil_unrest": 2.40,
+                    "war": 2.30,
+                    "political": 2.30,
+                    "srcc": 26,
+                    "id_terrorism": 135
+                },
+                "y2021": {
+                    "overall": 2.70,
+                    "terrorism": 3.20,
+                    "civil_unrest": 2.60,
+                    "war": 2.70,
+                    "political": 2.30,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PL": {
+        "elements": {
+            "name": "Poland",
+            "year": {
+                "y2018": {
+                    "overall": 1.50,
+                    "terrorism": 1.20,
+                    "civil_unrest": 2.10,
+                    "war": 1.00,
+                    "political": 1.80,
+                    "srcc": 67,
+                    "id_terrorism": 8
+                },
+                "y2019": {
+                    "overall": 1.50,
+                    "terrorism": 1.20,
+                    "civil_unrest": 2.00,
+                    "war": 1.00,
+                    "political": 1.80,
+                    "srcc": 43,
+                    "id_terrorism": 7
+                },
+                "y2020": {
+                    "overall": 1.60,
+                    "terrorism": 1.30,
+                    "civil_unrest": 2.00,
+                    "war": 1.00,
+                    "political": 1.90,
+                    "srcc": 47,
+                    "id_terrorism": 2
+                },
+                "y2021": {
+                    "overall": 1.60,
+                    "terrorism": 1.30,
+                    "civil_unrest": 2.00,
+                    "war": 1.00,
+                    "political": 2.00,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PT": {
+        "elements": {
+            "name": "Portugal",
+            "year": {
+                "y2018": {
+                    "srcc": 31,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 8,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "srcc": 23,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "PR": {
+        "elements": {
+            "name": "Puerto Rico",
+            "year": {
+                "y2018": {
+                    "overall": 1.50,
+                    "terrorism": 1.30,
+                    "civil_unrest": 1.80,
+                    "war": 0.70,
+                    "political": 2.00,
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "overall": 1.40,
+                    "terrorism": 1.00,
+                    "civil_unrest": 1.80,
+                    "war": 0.70,
+                    "political": 2.00,
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "overall": 1.40,
+                    "terrorism": 0.90,
+                    "civil_unrest": 1.80,
+                    "war": 0.80,
+                    "political": 2.20,
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 1.30,
+                    "terrorism": 0.90,
+                    "civil_unrest": 1.70,
+                    "war": 0.80,
+                    "political": 1.90,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "RE": {
+        "elements": {
+            "name": "Réunion",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "RO": {
+        "elements": {
+            "name": "Romania",
+            "year": {
+                "y2018": {
+                    "srcc": 45,
+                    "id_terrorism": 2
+                },
+                "y2019": {
+                    "srcc": 21,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 13,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "RU": {
+        "elements": {
+            "name": "Russia",
+            "year": {
+                "y2018": {
+                    "srcc": 907,
+                    "id_terrorism": 59
+                },
+                "y2019": {
+                    "srcc": 828,
+                    "id_terrorism": 58
+                },
+                "y2020": {
+                    "srcc": 322,
+                    "id_terrorism": 31
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "RW": {
+        "elements": {
+            "name": "Rwanda",
+            "year": {
+                "y2018": {
+                    "srcc": 4,
+                    "id_terrorism": 3
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "WS": {
+        "elements": {
+            "name": "Samoa",
+            "year": {
+                "y2018": {
+                    "srcc": 4,
+                    "id_terrorism": 3
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 1
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ST": {
+        "elements": {
+            "name": "Sao Tome",
+            "year": {
+                "y2018": {
+                    "srcc": 7,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SA": {
+        "elements": {
+            "name": "Saudi Arabia",
+            "year": {
+                "y2018": {
+                    "srcc": 1,
+                    "id_terrorism": 193
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 161
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 28
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SN": {
+        "elements": {
+            "name": "Senegal",
+            "year": {
+                "y2018": {
+                    "srcc": 64,
+                    "id_terrorism": 11
+                },
+                "y2019": {
+                    "srcc": 50,
+                    "id_terrorism": 2
+                },
+                "y2020": {
+                    "srcc": 55,
+                    "id_terrorism": 6
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "RS": {
+        "elements": {
+            "name": "Serbia",
+            "year": {
+                "y2018": {
+                    "srcc": 41,
+                    "id_terrorism": 19
+                },
+                "y2019": {
+                    "srcc": 128,
+                    "id_terrorism": 9
+                },
+                "y2020": {
+                    "srcc": 74,
+                    "id_terrorism": 5
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SL": {
+        "elements": {
+            "name": "Sierra Leone",
+            "year": {
+                "y2018": {
+                    "srcc": 12,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 5,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 11,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SK": {
+        "elements": {
+            "name": "Slovakia",
+            "year": {
+                "y2018": {
+                    "srcc": 33,
+                    "id_terrorism": 2
+                },
+                "y2019": {
+                    "srcc": 14,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 17,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SI": {
+        "elements": {
+            "name": "Slovenia",
+            "year": {
+                "y2018": {
+                    "srcc": 12,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 10,
+                    "id_terrorism": 4
+                },
+                "y2020": {
+                    "srcc": 21,
+                    "id_terrorism": 1
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SO": {
+        "elements": {
+            "name": "Somalia",
+            "year": {
+                "y2018": {
+                    "srcc": 9,
+                    "id_terrorism": 173
+                },
+                "y2019": {
+                    "srcc": 9,
+                    "id_terrorism": 232
+                },
+                "y2020": {
+                    "srcc": 24,
+                    "id_terrorism": 238
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ZA": {
+        "elements": {
+            "name": "South Africa",
+            "year": {
+                "y2018": {
+                    "overall": 2.40,
+                    "terrorism": 1.60,
+                    "civil_unrest": 4.40,
+                    "war": 1.10,
+                    "political": 2.40,
+                    "srcc": 308,
+                    "id_terrorism": 6
+                },
+                "y2019": {
+                    "overall": 2.40,
+                    "terrorism": 1.60,
+                    "civil_unrest": 4.40,
+                    "war": 1.10,
+                    "political": 2.40,
+                    "srcc": 287,
+                    "id_terrorism": 7
+                },
+                "y2020": {
+                    "overall": 2.30,
+                    "terrorism": 1.40,
+                    "civil_unrest": 4.30,
+                    "war": 1.10,
+                    "political": 2.40,
+                    "srcc": 233,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 2.40,
+                    "terrorism": 1.70,
+                    "civil_unrest": 4.40,
+                    "war": 1.10,
+                    "political": 2.40,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SS": {
+        "elements": {
+            "name": "South Sudan",
+            "year": {
+                "y2018": {
+                    "srcc": 8,
+                    "id_terrorism": 12
+                },
+                "y2019": {
+                    "srcc": 15,
+                    "id_terrorism": 30
+                },
+                "y2020": {
+                    "srcc": 38,
+                    "id_terrorism": 32
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ES": {
+        "elements": {
+            "name": "Spain",
+            "year": {
+                "y2018": {
+                    "overall": 2.00,
+                    "terrorism": 2.40,
+                    "civil_unrest": 2.60,
+                    "war": 1.00,
+                    "political": 2.00,
+                    "srcc": 177,
+                    "id_terrorism": 18
+                },
+                "y2019": {
+                    "overall": 1.90,
+                    "terrorism": 1.80,
+                    "civil_unrest": 2.60,
+                    "war": 1.00,
+                    "political": 2.00,
+                    "srcc": 112,
+                    "id_terrorism": 19
+                },
+                "y2020": {
+                    "overall": 1.90,
+                    "terrorism": 1.80,
+                    "civil_unrest": 2.60,
+                    "war": 1.00,
+                    "political": 2.20,
+                    "srcc": 54,
+                    "id_terrorism": 0
+                },
+                "y2021": {
+                    "overall": 1.80,
+                    "terrorism": 1.80,
+                    "civil_unrest": 2.40,
+                    "war": 1.00,
+                    "political": 2.00,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LK": {
+        "elements": {
+            "name": "Sri Lanka",
+            "year": {
+                "y2018": {
+                    "srcc": 23,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 25,
+                    "id_terrorism": 11
+                },
+                "y2020": {
+                    "srcc": 30,
+                    "id_terrorism": 0   
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "LC": {
+        "elements": {
+            "name": "St Lucia",
+            "year": {
+                "y2018": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 1,
+                    "id_terrorism": 0   
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SD": {
+        "elements": {
+            "name": "Sudan",
+            "year": {
+                "y2018": {
+                    "srcc": 29,
+                    "id_terrorism": 7
+                },
+                "y2019": {
+                    "srcc": 142,
+                    "id_terrorism": 6
+                },
+                "y2020": {
+                    "srcc": 52,
+                    "id_terrorism": 13   
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SR": {
+        "elements": {
+            "name": "Suriname",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 5,
+                    "id_terrorism": 0   
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SZ": {
+        "elements": {
+            "name": "Swaziland",
+            "year": {
+                "y2018": {
+                    "srcc": 12,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 4,
+                    "id_terrorism": 0
+                },
+                "y2020": {
+                    "srcc": 3,
+                    "id_terrorism": 0   
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SE": {
+        "elements": {
+            "name": "Sweden",
+            "year": {
+                "y2018": {
+                    "overall": 1.20,
+                    "terrorism": 1.80,
+                    "civil_unrest": 0.90,
+                    "war": 0.80,
+                    "political": 1.10,
+                    "srcc": 11,
+                    "id_terrorism": 5
+                },
+                "y2019": {
+                    "overall": 1.10,
+                    "terrorism": 1.60,
+                    "civil_unrest": 0.90,
+                    "war": 0.80,
+                    "political": 1.10,
+                    "srcc": 5,
+                    "id_terrorism": 6
+                },
+                "y2020": {
+                    "overall": 1.20,
+                    "terrorism": 1.70,
+                    "civil_unrest": 1.20,
+                    "war": 0.80,
+                    "political": 1.10,
+                    "srcc": 1,
+                    "id_terrorism": 2
+                },
+                "y2021": {
+                    "overall": 1.20,
+                    "terrorism": 1.70,
+                    "civil_unrest": 1.20,
+                    "war": 0.80,
+                    "political": 1.10,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "CH": {
+        "elements": {
+            "name": "Switzerland",
+            "year": {
+                "y2018": {
+                    "srcc": 10,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 15,
+                    "id_terrorism": 1   
+                },
+                "y2020": {
+                    "srcc": 40,
+                    "id_terrorism": 2   
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "SY": {
+        "elements": {
+            "name": "Syria",
+            "year": {
+                "y2018": {
+                    "srcc": 453,
+                    "id_terrorism": 11880
+                },
+                "y2019": {
+                    "srcc": 597,
+                    "id_terrorism": 8699  
+                },
+                "y2020": {
+                    "srcc": 528,
+                    "id_terrorism": 5985  
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TW": {
+        "elements": {
+            "name": "Taiwan",
+            "year": {
+                "y2018": {
+                    "srcc": 54,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 23,
+                    "id_terrorism": 0  
+                },
+                "y2020": {
+                    "srcc": 21,
+                    "id_terrorism": 0  
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TJ": {
+        "elements": {
+            "name": "Tajikistan",
+            "year": {
+                "y2018": {
+                    "srcc": 12,
+                    "id_terrorism": 4
+                },
+                "y2019": {
+                    "srcc": 16,
+                    "id_terrorism": 5 
+                },
+                "y2020": {
+                    "srcc": 10,
+                    "id_terrorism": 1 
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TZ": {
+        "elements": {
+            "name": "Tanzania",
+            "year": {
+                "y2018": {
+                    "srcc": 2,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 3,
+                    "id_terrorism": 1 
+                },
+                "y2020": {
+                    "srcc": 3,
+                    "id_terrorism": 0 
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TH": {
+        "elements": {
+            "name": "Thailand",
+            "year": {
+                "y2018": {
+                    "overall": 2.30,
+                    "terrorism": 3.10,
+                    "civil_unrest": 2.00,
+                    "war": 1.90,
+                    "political": 2.10,
+                    "srcc": 37,
+                    "id_terrorism": 61
+                },
+                "y2019": {
+                    "overall": 2.10,
+                    "terrorism": 2.70,
+                    "civil_unrest": 2.00,
+                    "war": 1.60,
+                    "political": 2.10,
+                    "srcc": 8,
+                    "id_terrorism": 20
+                },
+                "y2020": {
+                    "overall": 1.90,
+                    "terrorism": 1.70,
+                    "civil_unrest": 2.40,
+                    "war": 1.30,
+                    "political": 2.20,
+                    "srcc": 190,
+                    "id_terrorism": 7
+                },
+                "y2021": {
+                    "overall": 1.90,
+                    "terrorism": 1.70,
+                    "civil_unrest": 2.40,
+                    "war": 1.40,
+                    "political": 2.20,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TG": {
+        "elements": {
+            "name": "Togo",
+            "year": {
+                "y2018": {
+                    "srcc": 46,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 13,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 31,
+                    "id_terrorism": 0 
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TT": {
+        "elements": {
+            "name": "Trinidad & Tobago",
+            "year": {
+                "y2018": {
+                    "srcc": 4,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 5,
+                    "id_terrorism": 0 
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TN": {
+        "elements": {
+            "name": "Tunisia",
+            "year": {
+                "y2018": {
+                    "srcc": 911,
+                    "id_terrorism": 27
+                },
+                "y2019": {
+                    "srcc": 645,
+                    "id_terrorism": 16 
+                },
+                "y2020": {
+                    "srcc": 702,
+                    "id_terrorism": 7    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TR": {
+        "elements": {
+            "name": "Turkey",
+            "year": {
+                "y2018": {
+                    "overall": 2.60,
+                    "terrorism": 3.40,
+                    "civil_unrest": 1.80,
+                    "war": 2.70,
+                    "political": 2.40,
+                    "srcc": 37,
+                    "id_terrorism": 239
+                },
+                "y2019": {
+                    "overall": 2.60,
+                    "terrorism": 2.90,
+                    "civil_unrest": 2.20,
+                    "war": 2.70,
+                    "political": 2.60,
+                    "srcc": 31,
+                    "id_terrorism": 210
+                },
+                "y2020": {
+                    "overall": 2.50,
+                    "terrorism": 2.80,
+                    "civil_unrest": 2.10,
+                    "war": 2.50,
+                    "political": 2.50,
+                    "srcc": 44,
+                    "id_terrorism": 33
+                },
+                "y2021": {
+                    "overall": 2.40,
+                    "terrorism": 2.40,
+                    "civil_unrest": 2.20,
+                    "war": 2.50,
+                    "political": 2.60,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "TM": {
+        "elements": {
+            "name": "Turkmenistan",
+            "year": {
+                "y2018": {
+                    "srcc": 2,
+                    "id_terrorism": 1
+                },
+                "y2019": {
+                    "srcc": 0,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 2,
+                    "id_terrorism": 0    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "UG": {
+        "elements": {
+            "name": "Uganda",
+            "year": {
+                "y2018": {
+                    "srcc": 40,
+                    "id_terrorism": 2
+                },
+                "y2019": {
+                    "srcc": 21,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 48,
+                    "id_terrorism": 2    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "UA": {
+        "elements": {
+            "name": "Ukraine",
+            "year": {
+                "y2018": {
+                    "srcc": 655,
+                    "id_terrorism": 4402
+                },
+                "y2019": {
+                    "srcc": 373,
+                    "id_terrorism": 3410 
+                },
+                "y2020": {
+                    "srcc": 214,
+                    "id_terrorism": 2020    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "AE": {
+        "elements": {
+            "name": "United Arab Emirates",
+            "year": {
+                "y2018": {
+                    "overall": 1.50,
+                    "terrorism": 1.60,
+                    "civil_unrest": 1.00,
+                    "war": 1.50,
+                    "political": 1.80,
+                    "srcc": 37,
+                    "id_terrorism": 239
+                },
+                "y2019": {
+                    "overall": 1.50,
+                    "terrorism": 1.70,
+                    "civil_unrest": 1.00,
+                    "war": 1.60,
+                    "political": 1.80,
+                    "srcc": 31,
+                    "id_terrorism": 210
+                },
+                "y2020": {
+                    "overall": 1.80,
+                    "terrorism": 2.20,
+                    "civil_unrest": 1.10,
+                    "war": 1.70,
+                    "political": 2.00,
+                    "srcc": 44,
+                    "id_terrorism": 33
+                },
+                "y2021": {
+                    "overall": 1.70,
+                    "terrorism": 2.20,
+                    "civil_unrest": 1.10,
+                    "war": 1.60,
+                    "political": 2.00,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "GB": {
+        "elements": {
+            "name": "United Kingdom",
+            "year": {
+                "y2018": {
+                    "overall": 2.00,
+                    "terrorism": 2.80,
+                    "civil_unrest": 2.20,
+                    "war": 1.30,
+                    "political": 1.60,
+                    "srcc": 65,
+                    "id_terrorism": 22
+                },
+                "y2019": {
+                    "overall": 2.00,
+                    "terrorism": 2.40,
+                    "civil_unrest": 2.40,
+                    "war": 1.40,
+                    "political": 1.90,
+                    "srcc": 115,
+                    "id_terrorism": 12
+                },
+                "y2020": {
+                    "overall": 1.80,
+                    "terrorism": 1.90,
+                    "civil_unrest": 2.20,
+                    "war": 1.20,
+                    "political": 1.70,
+                    "srcc": 141,
+                    "id_terrorism": 26
+                },
+                "y2021": {
+                    "overall": 1.90,
+                    "terrorism": 2.20,
+                    "civil_unrest": 1.10,
+                    "war": 1.40,
+                    "political": 1.70,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "US": {
+        "elements": {
+            "name": "United States",
+            "year": {
+                "y2018": {
+                    "overall": 1.70,
+                    "terrorism": 2.50,
+                    "civil_unrest": 1.80,
+                    "war": 1.00,
+                    "political": 1.30,
+                    "srcc": 35,
+                    "id_terrorism": 3
+                },
+                "y2019": {
+                    "overall": 1.70,
+                    "terrorism": 2.40,
+                    "civil_unrest": 2.00,
+                    "war": 1.00,
+                    "political": 1.40,
+                    "srcc": 40,
+                    "id_terrorism": 5
+                },
+                "y2020": {
+                    "overall": 1.90,
+                    "terrorism": 1.90,
+                    "civil_unrest": 2.40,
+                    "war": 1.60,
+                    "political": 1.50,
+                    "srcc": 814,
+                    "id_terrorism": 4
+                },
+                "y2021": {
+                    "overall": 1.90,
+                    "terrorism": 1.90,
+                    "civil_unrest": 2.50,
+                    "war": 1.60,
+                    "political": 1.50,
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "UY": {
+        "elements": {
+            "name": "Uruguay",
+            "year": {
+                "y2018": {
+                    "srcc": 3,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 4,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 17,
+                    "id_terrorism": 1    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "UZ": {
+        "elements": {
+            "name": "Uzbekistan",
+            "year": {
+                "y2018": {
+                    "srcc": 0,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 15,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 8,
+                    "id_terrorism": 0    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "VE": {
+        "elements": {
+            "name": "Venezuela",
+            "year": {
+                "y2018": {
+                    "srcc": 230,
+                    "id_terrorism": 10
+                },
+                "y2019": {
+                    "srcc": 112,
+                    "id_terrorism": 6 
+                },
+                "y2020": {
+                    "srcc": 89,
+                    "id_terrorism": 8    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "VN": {
+        "elements": {
+            "name": "Vietnam",
+            "year": {
+                "y2018": {
+                    "srcc": 14,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 1,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 2,
+                    "id_terrorism": 0    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "YE": {
+        "elements": {
+            "name": "Yemen",
+            "year": {
+                "y2018": {
+                    "srcc": 352,
+                    "id_terrorism": 2592
+                },
+                "y2019": {
+                    "srcc": 215,
+                    "id_terrorism": 2677 
+                },
+                "y2020": {
+                    "srcc": 181,
+                    "id_terrorism": 1977    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ZM": {
+        "elements": {
+            "name": "Zambia",
+            "year": {
+                "y2018": {
+                    "srcc": 29,
+                    "id_terrorism": 0
+                },
+                "y2019": {
+                    "srcc": 9,
+                    "id_terrorism": 3 
+                },
+                "y2020": {
+                    "srcc": 19,
+                    "id_terrorism": 0    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    },
+    "ZW": {
+        "elements": {
+            "name": "Zimbabwe",
+            "year": {
+                "y2018": {
+                    "srcc": 26,
+                    "id_terrorism": 2
+                },
+                "y2019": {
+                    "srcc": 17,
+                    "id_terrorism": 0 
+                },
+                "y2020": {
+                    "srcc": 23,
+                    "id_terrorism": 0    
+                },
+                "y2021": {
+                    "srcc": "tbc",
+                    "id_terrorism": "tbc"
+                }
+            }
+        }
+    }
 }
