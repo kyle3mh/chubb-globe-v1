@@ -295,13 +295,18 @@ li {
 	#country-data {
 		-webkit-order: 2;
 		order: 2;
-		padding: 0 0.5em 0 1.5em;
-		flex: 0 1 20vw !important;
+		/* padding: 0 0.5em 0 1.5em; */
+		flex: 0 1 40vw !important;
 	}
 }
 @media (max-width: 511px) {
 	#breaking-news,
 	#country-data {
 		font-size: 2.75vw;
+		flex: 0 1 100vw !important;
+		padding: 0 1rem;
+	}
+	#country-data {
+		margin: 2rem 1rem;
 	}
 }
